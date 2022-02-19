@@ -112,7 +112,8 @@ footer{
   background-color: #0367A6;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
+  flex-direction: column;
 
 }
 
@@ -120,11 +121,19 @@ footer h3{
   color: white;;
 }
 
+.footer-content-container{
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .footer-content{
   /* border: 1px solid black; */
   height: 250px;
   width: 350px;
   text-align: center;
+  margin: 0 40px;
 }
 
 .footer-content i{
@@ -138,6 +147,12 @@ footer h3{
 .footer-content img{
   margin: 20px;
 }
+
+.copyright-section{
+  margin: 10px;
+}
+
+
 
 /* FORM SECTION */
 

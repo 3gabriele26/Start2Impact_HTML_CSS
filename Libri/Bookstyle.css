@@ -103,6 +103,10 @@ nav{
   text-align: center;
 }
 
+.title-book a:hover{
+  color: #0367A6;
+}
+
 .description-book{
   width: 700px;
   text-align: center;
@@ -119,23 +123,23 @@ nav{
 /* BOOK COLOR CLASS */
 
 .economy-img{
-  background-image: url('../assets/images/ECONOMY.png');
+  background-image: url('images/ECONOMY.png');
 }
 
 .mindset-img{
-  background-image: url('../assets/images/MINDSET.png');
+  background-image: url('images/MINDSET.png');
 }
 
 .science-img{
-  background-image: url('../assets/images/SCIENCE.png');
+  background-image: url('images/SCIENCE.png');
 }
 
 .story-img{
-  background-image: url('../assets/images/STORY.png');
+  background-image: url('images/STORY.png');
 }
 
 .travel-img{
-  background-image: url('../assets/images/TRAVEL.png');
+  background-image: url('images/TRAVEL.png');
 }
 
 

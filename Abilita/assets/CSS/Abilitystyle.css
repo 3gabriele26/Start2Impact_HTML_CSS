@@ -24,13 +24,15 @@ nav{
   width: 100%;
 }
 .ability-name h3{
-  margin-left: 10px;
+  text-align: center;
 }
 
 .ability-level{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 
 .hard-skills, .soft-skills, .language{

@@ -89,7 +89,7 @@
   /* ARTICLE SECTION */
 
   .article h1{
-    margin: 30px;
+    margin: 40px 10px;
   }
 
   #image-box-article1{
@@ -161,7 +161,7 @@
   /* ARTICLE SECTION */
 
   .article h1{
-    margin: 30px;
+    margin: 50px 10px;
   }
 
   #image-box-article1{
@@ -172,6 +172,7 @@
   #image-box-article2{
     height: 400px;
     width: 500px;
+    margin-bottom: 20px;
   }
 
   /* PORTFOLIO SECTION */

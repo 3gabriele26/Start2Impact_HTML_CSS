@@ -70,16 +70,13 @@ nav{
   /* border: 1px solid black; */
   border-radius: 20px;
   box-shadow: 0px 0px 3px 3px #0367A6;
-  height: 100px;
-  width: 1000px;
   margin: 20px;
 }
 
 .content-book{
   /* border: 1px solid black; */
   display: flex;
-  justify-content: space-between;
-  height: 82px;
+  height: auto;
   margin: 10px;
 }
 
@@ -107,13 +104,13 @@ nav{
 }
 
 .description-book{
-  width: 700px;
+  width: auto;
   text-align: center;
 }
 
 .stars-book{
   /* border: 1px solid black; */
-  margin-top: 50px;
+  margin-top: 20px;
   height: 20px;
 }
 
@@ -123,22 +120,27 @@ nav{
 
 .economy-img{
   background-image: url('../images/ECONOMY.png');
+  background-size: cover;
 }
 
 .mindset-img{
   background-image: url('../images/MINDSET.png');
+  background-size: cover;
 }
 
 .science-img{
   background-image: url('../images/SCIENCE.png');
+  background-size: cover;
 }
 
 .story-img{
   background-image: url('../images/STORY.png');
+  background-size: cover;
 }
 
 .travel-img{
   background-image: url('../images/TRAVEL.png');
+  background-size: cover;
 }
 
 

@@ -32,6 +32,22 @@
     margin-top: 20px;
   }
 
+  /* NAVBAR SECTION */
+
+  .logo{
+    display: none;
+  }
+
+  .navbar-box a{
+    font-size: 12px;
+  }
+
+  .navbar-social-box{
+    display: none;
+  }
+
+
+
   /* PORTFOLIO SECTION */
 
   .project-item{

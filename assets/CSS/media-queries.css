@@ -1,18 +1,56 @@
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 540px) {
 
   /* BANNER SECTION */
 
   .banner{
     height: 400px;
+    background-image: url('../images/newyork-small.png');
+  }
+
+  .banner h1{
+    font-size: 30px;
+    bottom: 100px;
   }
 
   /* CONTENT SECTION */
 
   .content-box p{
-    font-size: 8px;
+    font-size: 15px;
     text-align: center;
   }
+
+  #image-box-article1{
+    height: 200px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  #image-box-article2{
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* PORTFOLIO SECTION */
+
+  .project-item{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer-content-container{
+    flex-direction: column;
+  }
+
+  .footer1{
+    display: none;
+  }
+
 
 
 }
@@ -21,28 +59,31 @@
 
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 1000px) {
+@media only screen and (min-width: 541px) and (max-width: 1000px) {
 
   /* BANNER SECTION */
 
   .banner{
     height: 608px;
+    background-image: url('../images/newyork-medium.png');
+  }
+
+  .banner h1{
+    font-size: 40px;
+    bottom: 150px;
   }
 
   /* CONTENT SECTION */
 
   .content-box{
-    min-height: 300px;
+    height: auto;
     min-width: 500px;
+    margin-bottom: 20px;
   }
 
   .content-box p{
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
-  }
-
-  #me-speech{
-    margin-top: 15px;
   }
 
   /* ARTICLE SECTION */
@@ -51,9 +92,24 @@
     margin: 30px;
   }
 
+  #image-box-article1{
+    height: 300px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
+
   #image-box-article2{
     height: 300px;
     width: 400px;
+  }
+
+  /* PORTFOLIO SECTION */
+
+  .project-item{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 150px;
+    margin: 10px;
   }
 
   /* FOOTER SECTION */
@@ -83,6 +139,12 @@
 
   .banner{
     height: 825px;
+    background-image: url('../images/newyork-large.png');
+  }
+
+  .banner h1{
+    font-size: 60px;
+    bottom: 170px;
   }
 
   /* CONTENT SECTION */
@@ -102,9 +164,23 @@
     margin: 30px;
   }
 
+  #image-box-article1{
+    height: 300px;
+    width: 200px;
+  }
+
   #image-box-article2{
     height: 400px;
     width: 500px;
+  }
+
+  /* PORTFOLIO SECTION */
+
+  .project-item{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 200px;
+    margin: 10px;
   }
 
 }

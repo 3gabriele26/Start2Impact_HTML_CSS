@@ -1,0 +1,33 @@
+/* Mobile Styles */
+@media only screen and (max-width: 540px) {
+
+  .quotes-book p{
+    font-size: 15px;
+    margin: 30px;
+  }
+}
+
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 541px) and (max-width: 1000px) {
+
+  .quotes-book p{
+    font-size: 15px;
+    margin: 30px;
+  }
+
+}
+
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 1001px) {
+
+  .quotes-book p{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+}

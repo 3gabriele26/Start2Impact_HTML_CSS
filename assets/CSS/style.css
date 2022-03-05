@@ -25,16 +25,14 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../images/newyork1-medium.jpg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .banner h1{
   font-family: 'Pacifico', cursive;
-  font-size: 60px;
   text-align: center;
   position: relative;
-  bottom: 170px;
   line-height: 0.9;
 }
 
@@ -63,7 +61,7 @@ nav{
   position: relative;
 }
 
-.navbar-box a{
+.navbar-box a, li{
   color: white;
 }
 .navbar-box a:hover{
@@ -123,7 +121,7 @@ footer h3{
 
 .footer-content-container{
   display: flex;
-  height: 400px;
+  min-height: 400px;
   flex-direction: row;
   /* flex-wrap: wrap; */
   /* justify-content: space-around; */

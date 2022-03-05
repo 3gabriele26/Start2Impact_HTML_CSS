@@ -1,0 +1,61 @@
+nav{
+  position: inherit;
+}
+
+.ability-content-section{
+  font-family: 'Montserrat', sans-serif;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ability-container{
+  /* border: 1px solid black; */
+  height: auto;
+  width: auto;
+  margin: 20px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.ability-name{
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.ability-name h3{
+  margin-left: 10px;
+}
+
+.ability-level{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hard-skills, .soft-skills, .language{
+  margin: 25px;
+}
+
+.soft-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soft-skills h5{
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+...

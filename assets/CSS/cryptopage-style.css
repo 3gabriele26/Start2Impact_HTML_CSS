@@ -1,0 +1,34 @@
+/* NAVBAR SECTION */
+
+nav{
+  position: inherit;
+}
+
+/* CONTENT SECTION */
+
+.container{
+  text-align: center;
+}
+
+.container h1{
+  margin-top: 20px;
+}
+
+.qrcode-content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 400px;
+}
+
+
+.qrcode{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 200px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 15px;
+}

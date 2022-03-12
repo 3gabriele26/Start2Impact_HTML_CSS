@@ -29,4 +29,84 @@
   /* border: 1px solid black; */
   border-radius: 10px;
   box-shadow: 0px 0px 3px 3px #0367A6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.description-project-item{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: auto;
+  align-items: center;
+}
+
+.project-iframe{
+  display: none;
+  border: 2px solid #0367A6;
+}
+
+.description-project-item h4{
+  margin-top: 5px;
+}
+
+.description-project-item p{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.info-project-item{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skills ul{
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills li{
+  margin: 5px;
+}
+
+a.project-link{
+  width: 180px;
+  height: 25px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #F28C0F;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.project-skills{
+  height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+....

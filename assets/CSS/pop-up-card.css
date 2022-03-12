@@ -1,0 +1,34 @@
+.project-item:hover{
+  height: 450px;
+  width: 800px;
+  z-index: 3;
+  transition: .2s;
+}
+
+.project-item:hover .description-project-item h4{
+  display: none;
+}
+
+.project-item:hover .description-project-item p{
+  display: none;
+}
+
+.project-item:hover .project-iframe{
+  display: block;
+  margin-top: 20px;
+}
+
+.project-item:hover #skills-title{
+  display: none;
+}
+
+.project-item:hover .info-project-item{
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.project-item:hover .project-link:hover{
+  transform: scale(1.05);
+}

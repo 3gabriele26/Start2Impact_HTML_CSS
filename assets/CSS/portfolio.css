@@ -37,7 +37,7 @@
 .description-project-item{
   display: flex;
   flex-direction: column;
-  width: 180px;
+  width: auto;
   height: auto;
   align-items: center;
 }
@@ -49,11 +49,6 @@
 
 .description-project-item h4{
   margin-top: 5px;
-}
-
-.description-project-item p{
-  font-size: 12px;
-  margin-top: 10px;
 }
 
 .info-project-item{
@@ -84,10 +79,6 @@ a.project-link{
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
-}
-
-.project-skills{
-  height: 25px;
 }
 
 

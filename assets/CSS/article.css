@@ -21,7 +21,7 @@
 }
 
 #box-article2{
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .content-box{
@@ -35,7 +35,7 @@
   /* border: 1px solid black; */
   border-radius: 15px;
   box-shadow: 0px 0px 3px 3px #0367A6;
-  margin:  auto 20px;
+  margin: auto 20px;
 }
 
 /* ARTICLE SECTION */

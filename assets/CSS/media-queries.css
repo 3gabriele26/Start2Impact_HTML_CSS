@@ -166,7 +166,8 @@
   /* CONTENT SECTION */
 
   .content-box{
-    height: 500px;
+    margin: auto;
+    height: auto;
     width: 700px;
   }
 

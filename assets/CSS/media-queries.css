@@ -24,12 +24,16 @@
     height: 200px;
     width: 150px;
     margin-bottom: 20px;
+    background-image: url('../images/Profilo-small.png');
+
   }
 
   #image-box-article2{
     height: 200px;
     width: 300px;
     margin-top: 20px;
+    background-image: url('../images/freelance-small.png');
+
   }
 
   /* NAVBAR SECTION */
@@ -112,11 +116,13 @@
     height: 300px;
     width: 200px;
     margin-bottom: 15px;
+    background-image: url('../images/Profilo.png');
   }
 
   #image-box-article2{
     height: 300px;
     width: 400px;
+    background-image: url('../images/freelance-medium.png');
   }
 
   /* PORTFOLIO SECTION */
@@ -184,12 +190,14 @@
   #image-box-article1{
     height: 300px;
     width: 200px;
+    background-image: url('../images/Profilo.png');
   }
 
   #image-box-article2{
     height: 400px;
     width: 500px;
     margin-bottom: 20px;
+    background-image: url('../images/freelance-large.png');
   }
 
   /* PORTFOLIO SECTION */

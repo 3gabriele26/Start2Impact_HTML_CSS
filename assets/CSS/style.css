@@ -182,8 +182,9 @@ form h3{
   margin-top: 10px;
 }
 
-button{
+#button{
   margin: 20px auto;
+  padding: 10px;
   background-color: #F28C0F;
   border-radius: 15px;
   border: 0;

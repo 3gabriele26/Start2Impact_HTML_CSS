@@ -21,8 +21,13 @@
     <link rel='stylesheet' href='assets/CSS/portfolio.css'/>
     <link rel='stylesheet' href='assets/CSS/pop-up-card.css'/>
 
+    <!-- SCRIPT SECTION -->
 
     <script src="https://kit.fontawesome.com/7719c71156.js" crossorigin="anonymous"></script> <!--Collegamento alle risorse di FontAwesome-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('iS8qNDt5IIVxnsPbM')</script>
+
 
   </head>
   <body>
@@ -64,7 +69,7 @@
     </div>
 
 
-    
+
 
     <!-- ME SECTION -->
 
@@ -195,13 +200,17 @@
     <footer>
       <div class="footer-content-container">
         <div class="footer-content footer1">
-          <form action="https://formsubmit.co/ac1c2db1a1980ea87864ef76fd2afe4f" method="POST">
-            <h3>CONTATTAMI</h3>
-            <input class="form-item" type="text" id="name" placeholder="Nome" required>
-            <input class="form-item" type="text" id="number" placeholder="Numero">
-            <input class="form-item" type="email" id="email" placeholder="Email" required>
-            <textarea class="form-item" rows="4" placeholder="Come posso aiutarti ?"></textarea>
-            <button class="send-button" type="submit"> INVIA </button>
+          <form id="form">
+
+              <input type="text" name="nome" id="nome" class="form-item" placeholder="Nome e Cognome">
+
+              <input type="text" name="email" id="email" class="form-item" placeholder="Email">
+
+              <input type="text" name="numero" id="numero" class="form-item" placeholder="Numero">
+
+              <textarea name="testo" rows="4" cols="80" id="testo" class="form-item" placeholder="Come posso aiutarti ?"></textarea>
+
+              <input type="submit" id="button" value="Send Email">
           </form>
 
         </div>
@@ -237,4 +246,27 @@
     </footer>
 
   </body>
+
+  <script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+     .addEventListener('submit', function(event) {
+       event.preventDefault();
+
+       btn.value = 'Sending...';
+
+       const serviceID = 'service_yc5k1b6';
+       const templateID = 'template_nb7vsxg';
+
+       emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+          btn.value = 'Send Email';
+          alert('Sent!');
+        }, (err) => {
+          btn.value = 'Send Email';
+          alert(JSON.stringify(err));
+        });
+    });
+  </script>
 </html>
